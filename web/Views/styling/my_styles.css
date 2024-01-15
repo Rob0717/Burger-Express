@@ -1,0 +1,107 @@
+/* Styly */
+
+.uvod_kupon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.uvod_kupon_inside {
+    margin: 50px !important;
+    width: 300px !important;
+    background: linear-gradient(red,black);
+    text-align: center;
+    align-content: center;
+    border-radius: 25px;
+    color: white;
+    box-sizing: border-box;
+}
+.btnDoKosiku{
+    margin-bottom: 10px;
+}
+.img-center {
+    padding-top: 20px;
+    border-radius: 50px;
+}
+/******************************************************************/
+#basic_template_body{
+    background-color: #5d0000;
+}
+#telo{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../resources/fastfood-bg-resized.jpg") no-repeat fixed center;
+    min-height: 80dvh;
+}
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80dvh;
+}
+/******************************************************************/
+#prihlasovaciFormular{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fde163;
+}
+#registracniFormular{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #ffbaba;
+}
+/******************************************************************/
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    color: #fff;
+}
+#divFooter{
+    font-family:Verdana,serif;
+    background-color: #5d0000;
+    text-align: center;
+    padding: 20px;
+}
+
+#spanFooter{
+    color: #949494;
+    margin: auto;
+}
+/******************************************************************/
+#pHeading{
+    color: #fde163;
+    font-family: Serif,serif;
+    font-size: 10vw;
+    text-shadow:
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+/******************************************************************/
+.navbar{
+    background-color: #5d0000;
+    width: 100%;
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+}
+
+.fa.fa-home,.fa.fa-hamburger,.fa.fa-sign-in-alt,.fa.fa-user-plus,.fa-solid.fa-truck,.fa-solid.fa-user-secret{
+    align-self: center;
+    color: #fde163;
+}
+
+#collapsibleNavbar{
+    transition: all .5s;
+}
+#focusedCollapsibleNavbar:focus{
+    box-shadow: none;
+    border-color: #fde163;
+}
+
+.note-icon-bold,.note-icon-italic,.note-icon-eraser,.note-btn-bold .active,.note-btn-italic .active,.note-editable i{
+    color: black !important;
+}

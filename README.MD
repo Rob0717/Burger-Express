@@ -34,7 +34,10 @@ O responzivitu stránek se stará převážně knihovna BootStrap, ale také kas
 
  
 ## Spuštění aplikace
-Pro spuštění aplikace je nejprve potřeba ve složce composer spustit příkazovou řádku a v ní spustit příkaz composer install. Dále se ve složce database nachází SQL skript, který vytvoří databázi ´web´ a vloží do ní tabulky a data. Testovací data jsou:
+Pro spuštění aplikace je nejprve potřeba ve složce composer spustit příkazovou řádku a v ní spustit příkaz composer install - 
+   stažení composeru:
+https://getcomposer.org/Composer-Setup.exe . 
+Dále se ve složce database nachází SQL skript, který vytvoří databázi ´web´ a vloží do ní tabulky a data. Testovací data jsou:
 
 - E-mail		x		*Heslo*
 - superadmin@zcu.cz	 x	*superadmin*
